@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+main{
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+#email:hover{
+    background-color: white;
+    color: red;
+
+}

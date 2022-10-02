@@ -1,0 +1,12 @@
+@charset "UTF-8";
+:root{
+    --cor2 : rgb(25, 21, 22);
+}
+.container{
+    padding: 20px;
+    width: 400px;
+    background-color: var(--cor2);
+    color: white;
+    
+}
+

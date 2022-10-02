@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body class="bosy">
+  
+<header>
+  <h1>Faça seu login facilmente aqui :)</h1>
+</header>
+<main>
+  <div>
+
+    <form id="formu">
+      <label for="Email">
+        <input type="email" name="useremail" id="useremail" placeholder="Digite seu email aqui" required>
+      </label>
+      
+      <br>
+      <input type="password" name="usersenha" id="usersenha" placeholder="Digite uma senha" minlength="5" maxlength="15" required>
+      <legend>
+        <p>A senha deve conter entre 5 a 15 caracteres</p>
+      </legend>
+      <br>
+      <input type="text" name="nomeuser" id="nomeuser" placeholder="Nome de Usuário" required > <br>
+      <button onclick="criarconta()" class="">Criar conta</button>
+
+      <a href="main.html" id="voltar" style="display: none;"><button>Voltar para a página de produtos</button></a>
+    </form>
+  </div>
+</main>
+<script src="login.js"></script>
+<body>
+   
+

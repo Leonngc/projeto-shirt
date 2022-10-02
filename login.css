@@ -1,0 +1,100 @@
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+
+*{
+    padding:0px;
+    margin: 0px;
+	
+}
+
+main{
+	max-width: 800px;
+	min-width: 280px;
+}
+
+header{
+    background-color: black;
+    padding-bottom: 40px;
+    color: white;
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+header > h1{
+    padding: 30px;
+}
+form{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.168);
+    
+}
+main{
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    height: 20px;
+    width: 400px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button{
+    min-width: 130px;
+	position: relative;
+	display: inline-block;
+
+	text-align: center;
+	text-transform: uppercase; 
+
+	padding: 15px;
+	margin: 30px 25px;
+
+	font-size: font-size + 40%;
+	font-weight: 600;
+
+	color: color-text;
+
+	transition: 0.5s;
+	border-radius: 5px;
+
+}
+
+button:hover{
+	cursor: pointer;
+	background: blue;
+    border: 15px;
+    color: white;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>.Shirt</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid " style="background-color: black; height: 120px; text-align: center;">
+      <img src="imagens/logo.blackpq.jpg" alt="Logo">
+    </div>
+
+
+
+  </header>
+  <nav>
+    <div style="padding:2px;">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="pag-login.html" id="login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="sobre.html" style="color: black;">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contatos.html" style="color: black;" target="_blank">Contato</a>
+        </li>
+      </ul>
+
+  </nav>
+
+  <main style="margin: auto; text-align:center;">
+    <h1 style="text-align: center; padding-bottom: 20px;">Produtos</h1>
+    <div
+      style="padding-top: 20px; text-align:center; background-color: rgb(25, 21, 22); border-radius: 12px; box-shadow: 3;">
+      <div class="text-center">
+        <abbr title="Camisa .Shirt Masculina Preta">
+          <img src="imagens/camisapreta.g.jpg" class="rounded mx-auto d-block, img-responsive" alt="..."
+            style="padding: 5px; background-color: rgba(110, 111, 111, 0.296) ;">
+        </abbr>
+
+        <figure>
+          <p style="color:white;">Camisa preta masculina elegante e confortável, servindo para qualquer ocasião</p>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 30px;"
+            onclick="adicionar_ao_carrinho()">R$99,99</button> <br>
+        </figure>
+
+        <abbr title="Camisa .Shirt Masculina Branca">
+          <img src="imagens/branca.pq.jpg" class="rounded" alt="..."
+            style="padding: 5px; background-color: rgb(110, 111, 111, 0.296);">
+
+          <figure>
+            <p style="color: white;">Camisa branca discreta e elegante, servindo para os mais diversos eventos e rolês.
+            </p>
+          </figure>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 30px;"
+            onclick="adicionar_ao_carrinho()">R$80,00</button> <br>
+        </abbr>
+
+        <abbr title="Camisa .Shirt Feminina preta">
+          <img src="imagens/pretafem.pq.jpg" class="rounded" alt="..."
+            style="background-color: rgb(110, 111, 111, 0.296); padding: 5px;">
+        </abbr>
+        <figure>
+          <p style="color: white; padding: 10px;">
+            Camisa preta feminina sendo ótima escolha para um look simples, porém elegante ao mesmo tempo.</p>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 30px;"
+            onclick="adicionar_ao_carrinho()">R$99,99</button>
+        </figure>
+        <abbr title="Camisa .Shirt feminina branca.">
+          <img src="imagens/fembranca.p.jpg" class="rounded" alt="..."
+            style="background-color: rgb(110, 111, 111, 0.296); padding: 5px;">
+        </abbr>
+        <figure>
+          <p style="color: white;">Camisa Branca Feminina, ideal para o eventos do dia, trazendo conforto e beleza.</p>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 30px;"
+            onclick="adicionar_ao_carrinho()">R$109,99</button>
+        </figure>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p style="font-style: italic; text-align: center;">Página projeto de autoria de Nicolas Leon</p>
+    <p style="text-align: center; text-decoration: none;">
+      <a href="https://www.instagram.com/invites/contact/?i=c9wqdfjtgtw5&utm_content=76c5ljq">Acesse meu instagram
+        clicando aqui</a>
+    </p>
+  </footer>
+</body>
+
+<!--CÓDIGO JS DO SITE-->
+
+<script>
+  function adicionar_ao_carrinho() {
+    alert("Ainda não possuímos um banco de dados para adicionar sua compra :(")
+  }
+</script>
+
+<!---JS BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
