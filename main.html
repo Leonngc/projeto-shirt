@@ -14,7 +14,7 @@
 <body>
   <header>
     <div class="container-fluid " style="background-color: black; height: 120px; text-align: center;">
-      <img src="imagens/logo.blackpq.jpg" alt="Logo">
+        <img src="imagens/logo.blackpq.jpg" alt="Logo">
     </div>
 
 
@@ -42,22 +42,28 @@
       style="padding-top: 20px; text-align:center; background-color: rgb(25, 21, 22); border-radius: 12px; box-shadow: 3;">
       <div class="text-center">
         <abbr title="Camisa .Shirt Masculina Preta">
-          <img src="imagens/camisapreta.g.jpg" class="rounded mx-auto d-block, img-responsive" alt="..."
+          <picture>
+            <source media="(max-width:620px )" srcset="imagens/camisapreta_pq.png">
+            <img src="imagens/camisapreta.g.jpg" class="rounded mx-auto d-block, img-responsive" alt="..."
             style="padding: 5px; background-color: rgba(110, 111, 111, 0.296) ;">
+          </picture>
         </abbr>
 
         <figure>
-          <p style="color:white;">Camisa preta masculina elegante e confortável, servindo para qualquer ocasião</p>
+          <p style="color:white; padding: 10px;">Camisa preta masculina elegante e confortável, servindo para qualquer ocasião</p>
           <button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 30px;"
             onclick="adicionar_ao_carrinho()">R$99,99</button> <br>
         </figure>
 
         <abbr title="Camisa .Shirt Masculina Branca">
+         <picture>
+          <source media="(max-width:620px )" srcset="imagens/branca_pq.png">
           <img src="imagens/branca.pq.jpg" class="rounded" alt="..."
             style="padding: 5px; background-color: rgb(110, 111, 111, 0.296);">
+          </picture> 
 
           <figure>
-            <p style="color: white;">Camisa branca discreta e elegante, servindo para os mais diversos eventos e rolês.
+            <p style="color: white; padding: 10px;">Camisa branca discreta e elegante, servindo para os mais diversos eventos e rolês.
             </p>
           </figure>
           <button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 30px;"
@@ -65,9 +71,15 @@
         </abbr>
 
         <abbr title="Camisa .Shirt Feminina preta">
-          <img src="imagens/pretafem.pq.jpg" class="rounded" alt="..."
+          <picture>
+            <source media="(max-width:620px )" srcset="imagens/pretafem_pq.png">
+            <img src="imagens/pretafem.pq.jpg" class="rounded" alt="..."
             style="background-color: rgb(110, 111, 111, 0.296); padding: 5px;">
+          </picture>
+          
         </abbr>
+
+
         <figure>
           <p style="color: white; padding: 10px;">
             Camisa preta feminina sendo ótima escolha para um look simples, porém elegante ao mesmo tempo.</p>
@@ -75,9 +87,14 @@
             onclick="adicionar_ao_carrinho()">R$99,99</button>
         </figure>
         <abbr title="Camisa .Shirt feminina branca.">
-          <img src="imagens/fembranca.p.jpg" class="rounded" alt="..."
-            style="background-color: rgb(110, 111, 111, 0.296); padding: 5px;">
+          <picture>
+            <source media="(max-width: 620px )" srcset="imagens/fembranca.p.png">
+            <img src="imagens/fembranca.p.jpg" class="rounded" alt="..."
+            style="background-color: rgb(110, 111, 111, 0.296); padding: 5px;"></picture>
+          
         </abbr>
+
+
         <figure>
           <p style="color: white;">Camisa Branca Feminina, ideal para o eventos do dia, trazendo conforto e beleza.</p>
           <button type="button" class="btn btn-primary btn-sm" style="margin-bottom: 30px;"
